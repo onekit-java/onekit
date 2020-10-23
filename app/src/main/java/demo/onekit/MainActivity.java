@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e("=======", OneKit.fixPath("/a/a","../b"));
+        Log.e("======",OneKit.fixPath("/a/index.html","../a/b.html"));
     }
 }

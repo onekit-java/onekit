@@ -1,3 +1,2 @@
-include ':Onekit'
-include ':app'
-rootProject.name = "OnekitDemo"
+include ':app', ':Onekit'
+rootProject.name='OnekitDemo'
