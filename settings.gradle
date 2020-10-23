@@ -1,0 +1,3 @@
+include ':Onekit'
+include ':app'
+rootProject.name = "OnekitDemo"
