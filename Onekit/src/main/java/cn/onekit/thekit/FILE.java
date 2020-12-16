@@ -10,7 +10,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.text.DecimalFormat;
 
-public class FileSizeUtil {
+public class FILE {
 
     public static final int SIZETYPE_B = 1;// 获取文件大小单位为B的double值
     public static final int SIZETYPE_KB = 2;// 获取文件大小单位为KB的double值

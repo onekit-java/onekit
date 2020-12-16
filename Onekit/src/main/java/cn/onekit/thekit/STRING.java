@@ -1,11 +1,11 @@
 package cn.onekit.thekit;
 
-public class STRING_ {
+public class STRING {
     public static  boolean isEmpty(String aString){
         return aString==null || aString.trim().equals("");
     }
     public static String firstUpper(String s) {
-        if (STRING_.isEmpty(s)) {
+        if (STRING.isEmpty(s)) {
             return s;
         }
         if (s.length() < 1) {
