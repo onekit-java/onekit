@@ -30,10 +30,10 @@ dependencies {
 }
 apply plugin: 'com.novoda.bintray-release'
 publish{
-    userOrg = 'www-onekit-cn' // Bintray 账号名
+    userOrg = 'www-onekit-cn'
     groupId = 'cn.onekit.x2x'
     artifactId = 'onekit'
-    publishVersion = '1.1.1'
+    publishVersion = '1.2.0'
     desc = ''
     website = 'https://www.onekit.cn'
 }
